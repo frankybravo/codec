@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13006,7 +13006,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <instance part="C1" gate="G$1" x="-27.94" y="58.42" rot="R270"/>
 <instance part="C6" gate="G$1" x="-38.1" y="-5.08"/>
 <instance part="C4" gate="G$1" x="-22.86" y="-5.08"/>
-<instance part="C2" gate="G$1" x="-53.34" y="43.18" rot="R270"/>
+<instance part="C2" gate="G$1" x="-76.2" y="43.18" rot="R270"/>
 <instance part="IC3" gate="A" x="-27.94" y="40.64" rot="MR180"/>
 <instance part="IC3" gate="B" x="35.814" y="-17.78" rot="MR180"/>
 <instance part="R5" gate="G$1" x="35.56" y="-7.62"/>
@@ -13160,7 +13160,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="-50.8" y1="43.18" x2="-48.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="43.18" x2="-48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>

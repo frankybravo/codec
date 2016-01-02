@@ -12803,13 +12803,13 @@ MicroAmplifier(TM) Series; Product Folder:OPA2340</description>
 <instance part="VDD3" gate="G$1" x="-5.08" y="68.58"/>
 <instance part="P+2" gate="VCC" x="-7.62" y="63.5"/>
 <instance part="SUPPLY4" gate="GND" x="-10.16" y="22.86" rot="R270"/>
-<instance part="VDD1" gate="G$1" x="-43.18" y="83.82"/>
-<instance part="SUPPLY1" gate="GND" x="-43.18" y="53.34"/>
+<instance part="VDD1" gate="G$1" x="-53.34" y="10.16"/>
+<instance part="SUPPLY1" gate="GND" x="-53.34" y="-20.32"/>
 <instance part="R4" gate="G$1" x="-27.94" y="50.8"/>
 <instance part="R1" gate="G$1" x="-12.7" y="40.64"/>
 <instance part="R2" gate="G$1" x="-43.18" y="43.18"/>
-<instance part="R3" gate="G$1" x="-43.18" y="60.96" rot="R90"/>
-<instance part="R8" gate="G$1" x="-43.18" y="73.66" rot="R90"/>
+<instance part="R3" gate="G$1" x="-53.34" y="-12.7" rot="R90"/>
+<instance part="R8" gate="G$1" x="-53.34" y="0" rot="R90"/>
 <instance part="R5" gate="G$1" x="76.2" y="33.02"/>
 <instance part="R6" gate="G$1" x="91.44" y="40.64"/>
 <instance part="C1" gate="G$1" x="-27.94" y="58.42" rot="R270"/>
@@ -12859,7 +12859,7 @@ MicroAmplifier(TM) Series; Product Folder:OPA2340</description>
 </segment>
 <segment>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
-<wire x1="-43.18" y1="78.74" x2="-43.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="5.08" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -12963,7 +12963,7 @@ MicroAmplifier(TM) Series; Product Folder:OPA2340</description>
 </net>
 <net name="0.5VDD" class="0">
 <segment>
-<wire x1="-43.18" y1="66.04" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-7.62" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <label x="-40.64" y="68.58" size="1.778" layer="95"/>
